@@ -12,12 +12,27 @@
             width: 400px;
             height: 400px;
             border: 2px solid slategray;
+            overflow-y: scroll;
+        }
+
+        .mini-box {
+            width: 200px;
+        }
+
+        .short-text {
+            text-align: justify;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     </style>
 </head>
 
 <body>
     <h1>Dhoro Tumi Khushi Te GodoGodo</h1>
+    <div class="mini-box">
+        <p class="short-text">This is a short text. If you want a longer one then, That's what she said.</p>
+    </div>
     <div class="big-lorem">
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et quaerat quam vero neque. Sequi expedita
@@ -58,7 +73,6 @@
             consequuntur vero commodi maxime ab dolorem eum debitis.
         </p>
     </div>
-
 </body>
 
 </html>
