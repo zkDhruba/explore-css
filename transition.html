@@ -6,10 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box {
+            background-color: aqua;
+            width: 150px;
+            height: 150px;
+            border: 2px solid coral;
+            border-radius: 15px;
+            transition: width 1s ease-out, height 1s ease-out, transform 1s ease-out;
+        }
+
+        .box:hover {
+            width: 175px;
+            height: 175px;
+            transform: rotate(15deg);
+        }
+    </style>
 </head>
 
 <body>
-    <div class="box">Trans - 1</div>
+    <div class="box">
+        <h3>Trans - 1</h3>
+    </div>
 </body>
 
 </html>
